@@ -9,7 +9,7 @@ data = pd.read_excel('/home/gabrieldantas/DDN/BIBLIOTECAS_PYTHON/PANDAS/clientes
 
 # Agrupando dados
 data_grouped = data.groupby(['nivelEscolaridade']).mean().reset_index()
-# print(dat
+print(data_grouped.columns())
 
 # ----------------------------------------------------
 fig = go.Figure()
